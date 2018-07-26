@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.green_earth"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.green_earth.Farmer_registration"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.green_earth.Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.example.green_earth.FarmerHome"
+            android:label="@string/title_activity_farmer_home" >
+        </activity>
+        <activity
+            android:name="com.example.green_earth.Notification"
+            android:label="@string/title_activity_notification" >
+        </activity>
+        <activity
+            android:name="com.example.green_earth.CROP"
+            android:label="@string/title_activity_crop" >
+        </activity>
+        <activity
+            android:name="com.example.green_earth.Article"
+            android:label="@string/title_activity_article" >
+        </activity>
+        <activity
+            android:name="com.example.green_earth.Doubtclearence"
+            android:label="@string/title_activity_doubtclearence" >
+        </activity>
+        <activity
+            android:name="com.example.green_earth.Reply"
+            android:label="@string/title_activity_reply" >
+        </activity>
+        <activity
+            android:name="com.example.green_earth.Doubthome"
+            android:label="@string/title_activity_doubthome" >
+        </activity>
+        <activity
+            android:name="com.example.green_earth.Chat"
+            android:label="@string/title_activity_chat" >
+        </activity>
+        <activity
+            android:name="com.example.green_earth.Producthome"
+            android:label="@string/title_activity_producthome" >
+        </activity>
+        <activity
+            android:name="com.example.green_earth.Enquiry"
+            android:label="@string/title_activity_enquiry" >
+        </activity>
+        <activity
+            android:name="com.example.green_earth.Enq"
+            android:label="@string/title_activity_enq" >
+        </activity>
+        <activity
+            android:name="com.example.green_earth.Pfenquirey"
+            android:label="@string/title_activity_pfenquirey" >
+        </activity>
+        <activity
+            android:name="com.example.green_earth.Publichome"
+            android:label="@string/title_activity_publichome" >
+        </activity>
+        <activity
+            android:name="com.example.green_earth.Registrpublic"
+            android:label="@string/title_activity_registrpublic" >
+        </activity>
+    </application>
+
+</manifest>
